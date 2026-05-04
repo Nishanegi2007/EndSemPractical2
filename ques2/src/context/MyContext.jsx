@@ -1,11 +1,2 @@
-
-function MyContext(){
-  
-
-  return (
-    <div>
-      
-    </div>
-);
-}
-export default MyContext ;
+import { createContext } from "react";
+export const MyContext = createContext();

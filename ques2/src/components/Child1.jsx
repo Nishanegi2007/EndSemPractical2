@@ -1,7 +1,8 @@
-import { useContext , createContext } from "react";
+import { useContext } from "react";
+import { MyContext } from "../context/MyContext";
 function Child1(){
-    const mycontext = createContext();
-  const { user, setUser } = useContext(mycontext);
+
+  const { user, setUser } = useContext(MyContext);
   return(
     
     <>
