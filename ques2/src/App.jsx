@@ -1,4 +1,5 @@
 import Child1 from "./components/Child1";
+import Child2 from "./components/Child2";
 import {MyContext} from "./context/MyContext";
 import { useState } from "react";
 function App(){
@@ -9,6 +10,7 @@ function App(){
   
     <MyContext.Provider value={{ user, setUser }}>
       <Child1 />
+      <Child2 />
 
     </MyContext.Provider>
     </>
