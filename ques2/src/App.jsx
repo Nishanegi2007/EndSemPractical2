@@ -3,7 +3,7 @@ import Child2 from "./components/Child2";
 import {MyContext} from "./context/MyContext";
 import { useState } from "react";
 function App(){
-  const [user, setUser] = useState({ name: "Budi", age: 20 });
+  const [user, setUser] = useState({ name: "Nisha", age: 20 });
 
   return(
     <>
