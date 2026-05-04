@@ -1,0 +1,4 @@
+ques1 :
+    create a like button using a white heart emoji when the button is clicked thw heart should toggle to red heart and vice versa
+ques2:
+    create a react apllication demonstrating the use of the context api 

@@ -1,0 +1,17 @@
+import Child1 from "./components/Child1";
+import MyContext from "./context/MyContext";
+import { useState } from "react";
+function App(){
+  const [user, setUser] = useState({ name: "Budi", age: 20 });
+
+  return(
+    <>
+  
+    <MyContext.Provider value={{ user, setUser }}>
+      <Child1 />
+
+    </MyContext.Provider>
+    </>
+  )
+}
+export default App ;
